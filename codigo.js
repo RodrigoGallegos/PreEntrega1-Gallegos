@@ -71,7 +71,14 @@ alert("Hola " + nombreUsuario+ "  !! " );
 
 
 let total = 0;
-let mensaje = prompt(nombreUsuario+' deseas comprar un producto? (s-si / n-no)');
+let mensaje = prompt(nombreUsuario+' deseas comprar un producto? (si / no)');
+
+while(mensaje != "si" && mensaje != "no"){
+    alert("por favor ingresa si o no");
+    mensaje = prompt("Hola Desea comprar algun producto; si o no?")
+}
+
+
 while(mensaje == 'si' || mensaje == "s"){
     let producto = prompt('1-Guitarra gibson Les Paul \n2-Bajo Texas Standard\n3-Bateria Fender Full\n4-Teclado Yamaha f-100\n5-Microfono Cort H-95');
     switch(producto){
