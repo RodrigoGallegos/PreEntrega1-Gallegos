@@ -1,6 +1,3 @@
-let nombreUsuario = prompt("Bienvenido Ingrese su nombre por favor");
-alert("Hola " + nombreUsuario+ "  !! " );
-
 
 
 //                             Esto era lo que venia haciendo con las clases pero no me salia muy bien asi que fui a lo seguro espero cuando comprenda mas poder terminarlo                                     //
@@ -67,7 +64,14 @@ alert("Hola " + nombreUsuario+ "  !! " );
  
  
 // }
+let nombreUsuario = prompt("Bienvenido Ingrese su nombre por favor");
+alert("Hola " + nombreUsuario+ "  !! " );
 
+let edad = prompt("Por Favor ingresa su edad")
+while(edad <= 10){
+    alert('Lo sentimos no tenes edad suficiente para acceder');
+    edad = prompt('Por Favor ingresa su edad');
+ }
 
 
 let total = 0;
