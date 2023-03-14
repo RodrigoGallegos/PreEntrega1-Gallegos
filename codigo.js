@@ -103,7 +103,7 @@ while(mensaje == 'si' || mensaje == "s"){
             incrementarTotal(500);
             break;
         default:
-            alert('Codigo Inexistente');
+            alert('Codigo Inexistente, por favor ingresar un codigo valido');
             break;
     }
     mensaje = prompt('Desea Comprar Otro Producto? (s-si/ n-no)');
