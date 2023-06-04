@@ -110,7 +110,7 @@ while(mensaje == 'si' || mensaje == "s"){
             alert('Codigo Inexistente, por favor ingresar un codigo valido');
             break;
     }
-    mensaje = prompt('Desea Comprar Otro Producto? (s-si/ n-no)');
+    mensaje = prompt('Desea Comprar Algun Otro Producto? (s-si/ n-no)');
     
 }
 
